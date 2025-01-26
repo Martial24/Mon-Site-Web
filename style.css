@@ -1,0 +1,36 @@
+/* Style général pour tout le site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Centrer le contenu sur la page */
+h1 {
+    text-align: center;
+    color: #0078D7; /* Couleur bleue Azure */
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Ajout d'un bouton stylé */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0078D7; /* Couleur bleue Azure */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005A9E;
+}
